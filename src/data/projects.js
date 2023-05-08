@@ -1,31 +1,49 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'BopifyDB',
-    subtitle: 'Spotify Revamped.',
-    link: 'https://github.com/domotheawsome/BopifyDB',
-    image: '/images/projects/bopify3.png',
-    date: '2022-05-01',
+    title: 'Android Weather App',
+    subtitle: '',
+    link: 'https://github.com/arthur-olivier/Android_Weather_App',
+    image: '/images/projects/weather.png',
+    date: '2023-01-01',
     desc:
-      'Implemented a database administration system and web-based UI using MySQL, Flask, and Bootstrap with inspiration from Spotify.',
+      'Android App using Android Studio that allows users to see a specific weather based on the localization and different parameters',
   },
   {
-    title: 'Smallsh',
-    subtitle: 'Bash-like shell capable of many things, all written in C.',
-    link: 'https://github.com/domotheawsome/academic-portfolio/tree/main/CS%20344%20--%20operating%20systems%20I',
-    image: '/images/projects/smallsh3.png',
-    date: '2022-04-01',
+    title: 'Machine Learning Research',
+    subtitle: '',
+    link: 'https://github.com/arthur-olivier/Machine_Learning_Research',
+    image: '/images/projects/machine_learning.jpeg',
+    date: '2022-11-01',
     desc:
-      'Built a simplified Bash-like shell in C Lang capable of executing built-in commands, I/O redirection, and inter-process communication using UNIX API functions.',
+      'Word Embeddings and Sentiment Analysis.',
   },
   {
-    title: 'BumpBot',
-    subtitle: 'Playing tag with a set of microcontrollers.',
-    link: 'https://github.com/domotheawsome/academic-portfolio/tree/main/ECE%20375%20--%20computer%20organization%20and%20assembly%20language%20programming',
-    image: '/images/projects/atmega2.png',
-    date: '2022-03-01',
+    title: 'Shopping Application for an online store',
+    subtitle: '',
+    link: 'https://github.com/arthur-olivier/Shopping_App',
+    image: '/images/projects/shop.png',
+    date: '2023-03-01',
     desc:
-      'Created a proof-of-concept ’freeze-tag’ robots using Assembly by utilizing interrupts from multiple sources to have two AVR boards interact with each other.',
+      'The Shopping Card Application is a basic e-commerce web app that allows users to view a list of available products, add products to a shopping cart, and "buy" the products in their cart.',
+  },
+  {
+    title: 'Target detection robot',
+    subtitle: '',
+    link: 'https://github.com/arthur-olivier/Target_Robot_Detection',
+    image: '/images/projects/robot.png',
+    date: '2022-02-01',
+    desc:
+      'This project aims to detect a target with a robot and determine its position using a Raspberry Pi and a STM32 microcontroller. The program was developed in Python with an object-oriented approach to allow for easy modification and addition of features.',
+  },
+  {
+    title: 'CrackStation',
+    subtitle: '',
+    link: 'https://github.com/arthur-olivier/CrackStation',
+    image: '/images/projects/Crackstation.jpeg',
+    date: '2022-12-01',
+    desc:
+      'Swift CrackStation for passwords encrypted with SHA1 and SHA256.',
   },
 ];
 

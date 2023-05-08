@@ -9,19 +9,19 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/ariel.png`} alt="" />
+        <img src={`${PUBLIC_URL}/images/arthur.png`} alt="" />
       </Link>
       <header>
-        <h2>Ariel Meshorer</h2>
-        <p><a href="mailto:cblappers@gmail.com">github.com/domotheawsome</a></p>
+        <h2>Artur Olivier</h2>
+        <p><a href="https://github.com/arthur-olivier">github.com/arthur-olivier</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Ariel. I&apos;m passionate about software
+      <p>Hi, I&apos;m Arthur. I&apos;m passionate about software, intelligence artifical
         and people.
-        I am an <a href="https://oregonstate.edu/">Oregon State University</a> CS student and future SWE. I&apos;m actively searching for a Summer 2023 SWE internship, reach out if we seem like a good fit.
+        I am a Graduate CS Student at <a href="https://oregonstate.edu/">Oregon State University</a> and Master CS Student at <a href="https://www.cpe.fr">CPE Lyon</a>. I&apos;m actively searching for a 2023 full-time job , reach out if we seem like a good fit.
       </p>
       <ul className="actions">
         <li>
@@ -32,7 +32,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Ariel Meshorer <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Arthur Olivier <Link to="/">arthur_olivier.com</Link>.</p>
     </section>
   </section>
 );

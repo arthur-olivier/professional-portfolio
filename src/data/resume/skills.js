@@ -3,54 +3,54 @@
 
 const skills = [
   {
-    title: 'Javascript',
+    title: 'Python',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Tools'],
   },
   {
-    title: 'Node.JS',
+    title: 'HTML',
+    competency: 4,
+    category: ['Web Development'],
+  },
+  {
+    title: 'CSS',
+    competency: 4,
+    category: ['Web Development'],
+  },
+  {
+    title: 'JavaScript',
+    competency: 4,
+    category: ['Web Development'],
+  },
+  {
+    title: 'React JS',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
-    title: 'React',
+    title: 'Android Studio',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Mobile Development'],
   },
   {
-    title: 'Bash',
+    title: 'PostgreSQL',
     competency: 3,
-    category: ['Tools', 'Languages'],
+    category: ['Big data'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'C',
     competency: 3,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Tools'],
   },
   {
-    title: 'Redis',
+    title: 'C ++',
     competency: 2,
-    category: ['Web Development', 'Databases'],
+    category: ['Tools'],
   },
   {
-    title: 'Express.JS',
+    title: 'Swift',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 2,
-    category: ['Web Development', 'Python'],
+    category: ['Mobile Development'],
   },
   {
     title: 'Git',
@@ -58,37 +58,11 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Kubernetes',
+    title: 'Unix',
     competency: 2,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Operation System'],
   },
 
-  {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Python',
-    competency: 4,
-    category: ['Languages', 'Python'],
-  },
-  {
-    title: 'C++',
-    competency: 3,
-    category: ['Languages'],
-  },
-
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be == to the
@@ -96,15 +70,9 @@ const skills = [
 const colors = [
   '#6968b3',
   '#37b1f5',
-  '#40494e',
-  '#515dd4',
   '#e47272',
   '#cc7b94',
   '#3896e2',
-  '#c3423f',
-  '#d75858',
-  '#747fff',
-  '#64cb7b',
 ];
 
 const categories = [
