@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://domotheawsome.github.io/professional-portfolio/",
+  "homepage": "https://arthur-olivier.github.io/professional-portfolio/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/domotheawsome/professional-portfolio.git"
+    "url": "https://github.com/arthur-olivier/professional-portfolio.git"
   },
   "engines": {
     "node": ">=14.x"
